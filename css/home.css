@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,12 +6,69 @@
 }
 body{
     overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    font-family: 'Merriweather', serif !important;
 }
 a{
     text-decoration: none !important;
     color: #ffffff !important;
 
 }
+/* Nav */
+.navbar-brand{
+    font-weight: bold;
+    font-size: 36px !important;
+    line-height: 45px !important;
+    color: #000000 !important;
+}
+header a{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333333 !important
+}
+
+/* Section One */
+#vividImage1{
+    background: url(/images/Rectangle2.png) center center/cover no-repeat ;
+    height: 820px;
+    position: relative;
+}
+#vividImage1 #vivid1-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#vivid1-content h1{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 91px;
+}
+#vivid1-content p{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    opacity: 0,8;
+}
+#vivid1-content .btn{
+    text-align: center;
+    margin: auto;
+    padding: 8px 22px 7px;
+    background: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #13161F !important;
+}
+#vividImage2{
+    background: url(/images/Rectangle3.png) center center/cover no-repeat ;
+    height: 820px;
+}
+
 .image-fluid{
     width: 100%;
     display: grid;
